@@ -6,10 +6,10 @@ module.exports = {
       {
         root: ['./src'],
         alias: {
-          test: './test',
-          underscore: 'lodash',
-          '@screens': '.src/screens',
+          '@assets': '.src/assets',
           '@components': '.src/components',
+          '@screens': '.src/screens',
+          '@theme': '.src/theme',
         },
       },
     ],
